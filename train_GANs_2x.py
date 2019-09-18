@@ -22,7 +22,7 @@ hr_shape = (hr_height, hr_width, channels)
 data_loader = dataLoaderUnISR(SCALE=2)
 
 # training parameters
-num_epochs = 20
+num_epochs = 40
 batch_size = 1
 sample_interval = 500 # per step
 ckpt_interval = 4 # per epoch
