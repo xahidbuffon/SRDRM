@@ -31,7 +31,7 @@ num_step = num_epochs*steps_per_epoch
 #####################################################################
 
 # choose which model to run
-model_name = "srdrm" # options: ["srdrm", "srgan", "esrgan", "edsrgan"]
+model_name = "srdrm-gan" # options: ["srdrm-gan", "srgan", "esrgan", "edsrgan"]
 if model_name.lower() == "srgan":
     from nets.SRGAN import SRGAN_model
     gan_model = SRGAN_model(lr_shape, hr_shape, SCALE=4)
@@ -69,7 +69,7 @@ while (step <= num_step):
         d_loss = 0.5 * np.add(d_loss_real, d_loss_fake)
         # train the generators
         image_features = gan_model.vgg.predict(imgs_hr)
-        if (model_name.lower()=="srdrm"): 
+        if (model_name.lower()=="srdrm-gan"): 
             # custom loss function for SRDRM-GAN
             g_loss = gan_model.combined.train_on_batch([imgs_lr, imgs_hr], 
                                                        [valid, image_features, imgs_hr])
