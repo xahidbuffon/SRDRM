@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+"""
+# > Script for training 2x GAN-based SISR models on USR-248 data 
+#    - Paper: https://arxiv.org/pdf/1903.09766.pdf
+#
+# Maintainer: Jahid (email: islam034@umn.edu)
+# Interactive Robotics and Vision Lab (http://irvlab.cs.umn.edu/)
+# Any part of this repo can be used for academic and educational purposes only
+"""
 from __future__ import print_function, division
 import os
 import sys
@@ -9,17 +18,17 @@ import keras.backend as K
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2' # less logs
 # local libs
 from utils.plot_utils import save_val_samples
-from utils.data_utils import dataLoaderUnISR, deprocess
+from utils.data_utils import dataLoaderUSR, deprocess
 #####################################################################
 ## dataset and image information
-dataset_name = "UnISR_2x" # SCALE = 2
+dataset_name = "USR_2x" # SCALE = 2
 channels = 3
 lr_width, lr_height = 320, 240   # low res
 hr_width, hr_height = 640, 480 # high res (4x)
 # input and output data
 lr_shape = (lr_height, lr_width, channels)
 hr_shape = (hr_height, hr_width, channels)
-data_loader = dataLoaderUnISR(SCALE=2)
+data_loader = dataLoaderUSR(SCALE=2)
 
 # training parameters
 num_epochs = 40

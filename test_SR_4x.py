@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 """
-# >  
-#    - Paper: 
-#
-# > Notes and Usage:
-#    - set data_dir and model paths
-#    - python test_funieGAN.py
+# > Script for testing 4x SISR models on USR-248 data 
+#    - Paper: https://arxiv.org/pdf/1903.09766.pdf
 #
 # Maintainer: Jahid (email: islam034@umn.edu)
 # Interactive Robotics and Vision Lab (http://irvlab.cs.umn.edu/)
@@ -21,7 +17,7 @@ from keras.models import model_from_json
 from utils.data_utils import getPaths, preprocess, deprocess
 
 ## for testing arbitrary local data
-data_dir = "data/test/low_res_4x/"
+data_dir = "data/test/cropped/"
 test_paths = getPaths(data_dir)
 print ("{0} test images are loaded".format(len(test_paths)))
 

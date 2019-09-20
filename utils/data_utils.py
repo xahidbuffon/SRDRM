@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+# > Various modules for handling data 
+#
+# Maintainer: Jahid (email: islam034@umn.edu)
+# Interactive Robotics and Vision Lab (http://irvlab.cs.umn.edu/)
+# Any part of this repo can be used for academic and educational purposes only
+"""
 from __future__ import division
 from __future__ import absolute_import
 import os
@@ -106,16 +114,16 @@ class dataLoaderCelebA():
         return imgs_hr, imgs_lr
 
 
-class dataLoaderUnISR():
+class dataLoaderUSR():
     def __init__(self, SCALE=4):
-        dataset_name = "UnISR"
+        dataset_name = "USR-248"
         # SCALE = 2 (320, 240)  => (640,480)
         # SCALE = 4 (160, 120)   => (640,480)
         # SCALE = 8 (80, 60)    => (640,480)  
         self.SCALE = SCALE  #4x data if True (160, 120) => (640,480)
         self.lr_res_, self.low_res_folder_ = self.get_lr_info()
-        train_dir = "/mnt/data2/ImageSR/UnISR/train/"
-        val_dir = "/mnt/data2/ImageSR/UnISR/val/"
+        train_dir = "/mnt/data2/ImageSR/USR-248/train/"
+        val_dir = "/mnt/data2/ImageSR/USR-248/val/"
         self.num_train, self.train_lr_paths, self.train_hr_paths = self.get_lr_hr_paths(train_dir)
         print ("Loaded {0} pairs of image-paths for training".format(self.num_train)) 
         self.num_val, self.val_lr_paths, self.val_hr_paths = self.get_lr_hr_paths(val_dir)
@@ -165,12 +173,3 @@ class dataLoaderUnISR():
         return imgs_lr, imgs_hr
 
 
-
-if __name__=="__main__":
-    data_loader = dataLoaderUnISR(SCALE=8)
-    print (data_loader.num_train)
-    for i in range(5):
-        imgs_lr, imgs_hr = data_loader.load_val_data()
-        print (len(imgs_lr), len(imgs_hr))
-        a = np.array(imgs_hr[0])
-        print (a.shape)

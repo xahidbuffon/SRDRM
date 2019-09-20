@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+# > Various modules for computing loss 
+#
+# Maintainer: Jahid (email: islam034@umn.edu)
+# Interactive Robotics and Vision Lab (http://irvlab.cs.umn.edu/)
+# Any part of this repo can be used for academic and educational purposes only
+"""
 from __future__ import print_function, division
 import os
 import sys
