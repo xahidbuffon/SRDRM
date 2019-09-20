@@ -7,12 +7,10 @@
 | Single Image Super-Resolution (SISR) | Color and sharpness   | 
 |:--------------------|:--------------------|
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
-| ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
 ### Pointers
 - Paper: soon
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
-- Video demo: https://youtu.be/qOLZVgrxCwE
 - Bibliography entry for citation:
 	```
 	article{islam2019fast,
@@ -22,6 +20,12 @@
 	    year={2019}
 	}
 	```
+- Video demo: https://youtu.be/qOLZVgrxCwE
+| 2x SISR | 4x SISR  | 
+|:--------------------|:--------------------|
+| ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
+
+
 #### Usage
 - Download the data, setup data-paths in the training scripts
 - Use the individual scripts for training 2x, 4x, 8x SISR models 
