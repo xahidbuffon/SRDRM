@@ -12,6 +12,7 @@
 ### Pointers
 - Paper: soon
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
+- Video demo: https://youtu.be/qOLZVgrxCwE
 - Bibliography entry for citation:
 	```
 	article{islam2019fast,
