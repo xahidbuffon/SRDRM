@@ -22,7 +22,7 @@ test_paths = getPaths(data_dir)
 print ("{0} test images are loaded".format(len(test_paths)))
 
 ## load specific model
-model_name = "srdrm"
+model_name = "srdrm-gan"
 ckpt_name =  "model_20_"
 checkpoint_dir  = os.path.join("checkpoints/saved/2x/", model_name) 
 model_h5 = os.path.join(checkpoint_dir, ckpt_name+".h5")  
