@@ -3,7 +3,6 @@
 - Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
   
-
 | Single Image Super-Resolution (SISR) | Color and sharpness   | 
 |:--------------------|:--------------------|
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
@@ -25,7 +24,6 @@
 |:--------------------|:--------------------|
 | ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
-
 #### Usage
 - Download the data, setup data-paths in the training scripts
 - Use the individual scripts for training 2x, 4x, 8x SISR models 
@@ -38,7 +36,6 @@
 	- Output: data/output/ 
 - A few saved models are provided in checkpoints/saved/
 - Use the [measure.py](measure.py) for quantitative analysis based on UIQM, SSIM, and PSNR 
-
 
 #### Constraints and Challenges
 - Trade-offs between performance and running time. Requirements:
