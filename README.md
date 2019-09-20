@@ -3,7 +3,7 @@
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
   
 
-| Perceptual enhancement | Color and sharpness   | 
+| Single Image SR | Color and sharpness   | 
 |:--------------------|:--------------------|
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
 
@@ -14,9 +14,9 @@
 - Bibliography entry for citation:
 	```
 	article{islam2019fast,
-	    title={Fast Underwater Image Enhancement for Improved Visual Perception},
-	    author={Islam, Md Jahidul and Xia, Youya and Sattar, Junaed},
-	    journal={arXiv preprint arXiv:1903.09766},
+	    title={Underwater Image Super-Resolution using Deep Residual Multipliers},
+	    author={Islam, Md Jahidul and Enan, Sadman Sakib and Luo, Peigen and Sattar, Junaed},
+	    journal={arXiv preprint arXiv:x.y},
 	    year={2019}
 	}
 	```
