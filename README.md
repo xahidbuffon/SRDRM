@@ -1,17 +1,15 @@
 ### Resources
-- Implementations of **[FUnIE-GAN](https://arxiv.org/abs/1903.09766)** for underwater image enhancement
-- Simplified implementations of **UGAN** and its variants ([original repo](https://github.com/cameronfabbri/Underwater-Color-Correction))
-- **Cycle-GAN** and other relevant modules 
-- Modules for quantifying image quality base on **UIQM**, **SSIM**, and **PSNR**
+- Implementations of **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
   
+
 | Perceptual enhancement | Color and sharpness   | 
 |:--------------------|:--------------------|
-| ![det-1a](/data/fig1a.jpg) | ![det-1b](/data/col.jpg) | 
+| ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
 
 
 ### FUnIE-GAN Pointers
-- Paper: https://arxiv.org/pdf/1903.09766.pdf
+- Paper: soon
 - Datasets: http://irvlab.cs.umn.edu/resources/euvp-dataset
 - Bibliography entry for citation:
 	```
