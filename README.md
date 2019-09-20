@@ -9,7 +9,7 @@
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
 
 
-### FUnIE-GAN Pointers
+### Pointers
 - Paper: soon
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
 - Bibliography entry for citation:
@@ -22,8 +22,8 @@
 	}
 	```
 #### Usage
-- Download the data, setup data-paths in the training-scripts
-- Use the individual scripts for training 2x, 4x, 8x SISR 
+- Download the data, setup data-paths in the training scripts
+- Use the individual scripts for training 2x, 4x, 8x SISR models 
 	- train-GAN-nx.py: SRDRM-GAN, SRGAN, ESRGAN, EDSRGAN
 	- train-generative-models-nx.py: SRDRM, ResNetSR, SRCNN, DSRCNN
 	- Checkpoints: checkpoints/dataset-name/model-name/
