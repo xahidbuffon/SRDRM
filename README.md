@@ -1,9 +1,10 @@
 ### Resources
 - Implementations of **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
+- Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
   
 
-| Single Image SR | Color and sharpness   | 
+| Single Image Super-Resolution (SISR) | Color and sharpness   | 
 |:--------------------|:--------------------|
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
 
@@ -22,14 +23,17 @@
 	```
 #### Usage
 - Download the data, setup data-paths in the training-scripts
-- Use paired training for FUnIE-GAN/UGAN, and unpaired training for FUnIE-GAN-up/Cycle-GAN 
-	- Checkpoints: checkpoints/model-name/dataset-name
-	- Samples: data/samples/model-name/dataset-name
+- Use the individual scripts for training 2x, 4x, 8x SISR 
+	- train-GAN-nx.py: SRDRM-GAN, SRGAN, ESRGAN, EDSRGAN
+	- train-generative-models-nx.py: SRDRM, ResNetSR, SRCNN, DSRCNN
+	- Checkpoints: checkpoints/dataset-name/model-name/
+	- Samples: images/dataset-name/model-name/
 - Use the test-scripts for evaluating different models
-	- A few test images: data/test/A (ground-truth: GTr_A), data/test/random (unpaired)
-	- Output: data/output 
+	- A few test images: data/test/ (ground-truth: high_res)
+	- Output: data/output/ 
+- A few saved models are provided in checkpoints/saved/
 - Use the [measure.py](measure.py) for quantitative analysis based on UIQM, SSIM, and PSNR 
-- A few saved models are provided in saved_models/
+
 
 #### Constraints and Challenges
 - Trade-offs between performance and running time. Requirements:
