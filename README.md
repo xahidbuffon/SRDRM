@@ -10,7 +10,7 @@
 
 ### FUnIE-GAN Pointers
 - Paper: soon
-- Datasets: http://irvlab.cs.umn.edu/resources/euvp-dataset
+- USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
 - Bibliography entry for citation:
 	```
 	article{islam2019fast,
