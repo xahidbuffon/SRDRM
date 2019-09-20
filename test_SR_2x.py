@@ -17,7 +17,7 @@ from keras.models import model_from_json
 from utils.data_utils import getPaths, preprocess, deprocess
 
 ## for testing arbitrary local data
-data_dir = "data/test/cropped/"
+data_dir = "data/test/low_res_2x/"
 test_paths = getPaths(data_dir)
 print ("{0} test images are loaded".format(len(test_paths)))
 
