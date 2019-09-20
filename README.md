@@ -7,7 +7,7 @@
 | Single Image Super-Resolution (SISR) | Color and sharpness   | 
 |:--------------------|:--------------------|
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
-
+| ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
 ### Pointers
 - Paper: soon
