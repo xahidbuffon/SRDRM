@@ -20,6 +20,7 @@
 	}
 	```
 - Video demo: https://youtu.be/qOLZVgrxCwE
+
 | 2x SISR | 4x SISR  | 
 |:--------------------|:--------------------|
 | ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
