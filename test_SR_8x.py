@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-# > Script for testing 8x SISR models on USR-248 data 
+# > Script for evaluating 8x SISR models 
 #    - Paper: https://arxiv.org/pdf/x.y.pdf
 #
 # Maintainer: Jahid (email: islam034@umn.edu)

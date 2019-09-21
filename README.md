@@ -12,7 +12,7 @@
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
 - Bibliography entry for citation:
 	```
-	article{islam2019fast,
+	article{islam2019srdrm,
 	    title={Underwater Image Super-Resolution using Deep Residual Multipliers},
 	    author={Islam, Md Jahidul and Enan, Sadman Sakib and Luo, Peigen and Sattar, Junaed},
 	    journal={arXiv preprint arXiv:x.y},

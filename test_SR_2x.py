@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-# > Script for training 2x SISR models on USR-248 data 
+# > Script for evaluating 2x SISR models 
 #    - Paper: https://arxiv.org/pdf/x.y.pdf
 #
 # Maintainer: Jahid (email: islam034@umn.edu)
