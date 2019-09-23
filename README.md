@@ -15,7 +15,7 @@
 	article{islam2019srdrm,
 	    title={Underwater Image Super-Resolution using Deep Residual Multipliers},
 	    author={Islam, Md Jahidul and Enan, Sadman Sakib and Luo, Peigen and Sattar, Junaed},
-	    journal={arXiv preprint arXiv:x.y},
+	    journal={arXiv preprint arXiv:1909.09437},
 	    year={2019}
 	}
 	```
