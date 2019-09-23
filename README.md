@@ -8,7 +8,7 @@
 | ![det-1a](/data/fig1b.jpg) | ![det-1b](/data/col.jpg) | 
 
 ### Pointers
-- Paper: soon
+- Paper: https://arxiv.org/pdf/1909.09437.pdf
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
 - Bibliography entry for citation:
 	```

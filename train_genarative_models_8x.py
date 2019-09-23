@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 # > Script for training 8x generative SISR models on USR-248 data 
-#    - Paper: https://arxiv.org/pdf/x.y.pdf
+#    - Paper: https://arxiv.org/pdf/1909.09437.pdf
 #
 # Maintainer: Jahid (email: islam034@umn.edu)
 # Interactive Robotics and Vision Lab (http://irvlab.cs.umn.edu/)
