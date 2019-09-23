@@ -47,9 +47,9 @@
 	- Inconsistent coloring, infrequent noisy patches
 
 ### Acknowledgements
-- https://github.com/wandb/superres
-- https://github.com/david-gpu/srez
 - https://github.com/Mulns/SuperSR
+- https://github.com/david-gpu/srez
+- https://github.com/wandb/superres
 - https://github.com/tensorlayer/srgan
 - https://github.com/icpm/super-resolution
 - https://github.com/alexjc/neural-enhance
