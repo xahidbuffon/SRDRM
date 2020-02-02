@@ -15,7 +15,8 @@
 	article{islam2019srdrm,
 	    title={Underwater Image Super-Resolution using Deep Residual Multipliers},
 	    author={Islam, Md Jahidul and Enan, Sadman Sakib and Luo, Peigen and Sattar, Junaed},
-	    journal={To appear at the IEEE International Conference on Robotics and Automation (ICRA). arXiv:1909.09437},
+	    journal={Accepted for publication at the IEEE International Conference on Robotics 
+	    and Automation (ICRA). arXiv:1909.09437},
 	    year={2020}
 	}
 	```
