@@ -20,8 +20,8 @@
 	```
 - Video demo: https://youtu.be/qOLZVgrxCwE
  
-|:--------------------|:--------------------|
 | ![img1](/data/fig1b.jpg) | ![img2](/data/col.jpg) |
+|:--------------------|:--------------------|
 | ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
 #### Usage
