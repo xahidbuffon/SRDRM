@@ -3,7 +3,9 @@
 - Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
   
-
+| ![img1](/data/fig1b.jpg) | ![img2](/data/col.jpg) |
+|:--------------------|:--------------------|
+| ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
 ### Pointers
 - Paper: https://arxiv.org/pdf/1909.09437.pdf
@@ -18,11 +20,6 @@
 	    year={2020}
 	}
 	```
-- Video demo: https://youtu.be/qOLZVgrxCwE
- 
-| ![img1](/data/fig1b.jpg) | ![img2](/data/col.jpg) |
-|:--------------------|:--------------------|
-| ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
 #### Usage
 - Download the data, setup data-paths in the training scripts
@@ -37,13 +34,6 @@
 - A few saved models are provided in checkpoints/saved/
 - Use the [measure.py](measure.py) for quantitative analysis based on UIQM, SSIM, and PSNR 
 
-#### Constraints and Challenges
-- Trade-offs between performance and running time. Requirements:
-	- Running time >= 5 FPS on Jetson-TX2 
-	- Model size <= 12MB (no quantization) 
-- Challenges
-	- Performance for 8x models
-	- Inconsistent coloring, infrequent noisy patches
 
 ### Acknowledgements
 - https://github.com/Mulns/SuperSR
