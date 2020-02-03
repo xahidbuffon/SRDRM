@@ -1,4 +1,3 @@
-### Resources
 - Implementations of **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
 - Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
@@ -7,7 +6,7 @@
 |:--------------------|:--------------------|
 | ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
 
-### Pointers
+#### Pointers
 - Paper: https://arxiv.org/pdf/1909.09437.pdf
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
 - Bibliography entry for citation:
@@ -20,7 +19,6 @@
 	    year={2020}
 	}
 	```
-
 #### Usage
 - Download the data, setup data-paths in the training scripts
 - Use the individual scripts for training 2x, 4x, 8x SISR models 
@@ -34,8 +32,7 @@
 - A few saved models are provided in checkpoints/saved/
 - Use the [measure.py](measure.py) for quantitative analysis based on UIQM, SSIM, and PSNR 
 
-
-### Acknowledgements
+#### Acknowledgements
 - https://github.com/Mulns/SuperSR
 - https://github.com/david-gpu/srez
 - https://github.com/wandb/superres
