@@ -30,7 +30,7 @@ hr_width, hr_height = 640, 480 # high res (4x)
 # input and output data
 lr_shape = (lr_height, lr_width, channels)
 hr_shape = (hr_height, hr_width, channels)
-data_loader = dataLoaderUSR(SCALE=4)
+data_loader = dataLoaderUSR(DATA_PATH="/mnt/data1/ImageSR/USR-248/", SCALE=4)
 
 # training parameters
 num_epochs = 20
