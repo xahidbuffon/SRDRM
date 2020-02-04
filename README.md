@@ -2,9 +2,9 @@
 - Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
   
-| ![img1](/data/fig1b.jpg) | ![img2](/data/col.jpg) |
-|:--------------------|:--------------------|
-| ![det-enh](/data/2x.gif) | ![det-gif](/data/4x.gif) |
+![img1](/data/fig1b.jpg)
+
+
 
 #### Pointers
 - Paper: https://arxiv.org/pdf/1909.09437.pdf
