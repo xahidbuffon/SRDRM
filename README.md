@@ -8,12 +8,12 @@
 #### Pointers
 - Paper: https://arxiv.org/pdf/1909.09437.pdf
 - USR-248 dataset: http://irvlab.cs.umn.edu/resources/usr-248-dataset
-- Bibliography entry for citation:
+- Bibliography entry:
 	```
-	@inproceedings{islam2018dynamic,
+	@inproceedings{islam2020srdrm,
 	  title={{Underwater Image Super-Resolution using Deep Residual Multipliers}},
 	  author={Islam, Md Jahidul and Enan, Sadman Sakib and Luo, Peigen and Sattar, Junaed},
-	  booktitle={To appear at the IEEE International Conference on Robotics and Automation (ICRA)},
+	  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
 	  year={2020},
 	  organization={IEEE}
 	}
