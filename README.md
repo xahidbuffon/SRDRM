@@ -2,7 +2,7 @@
 ![img1](/data/fig1b.jpg)
 
 #### Resources
-- Proposed dataset: [USR-248 dataset](http://irvlab.cs.umn.edu/resources/usr-248-dataset)
+- Proposed dataset: [USR-248](http://irvlab.cs.umn.edu/resources/usr-248-dataset)
 - Proposed model: **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
 - Models in comparison: SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Requirements: TensorFlow >= 1.11 and Keras >= 2.2
