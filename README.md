@@ -1,9 +1,9 @@
-*Repository for the paper [Underwater Image Super-Resolution using Deep Residual Multipliers](https://arxiv.org/pdf/1909.09437.pdf) (ICRA 2020)*
+*Repository for the paper [Underwater Image Super-Resolution using Deep Residual Multipliers](https://ieeexplore.ieee.org/document/9197213) (ICRA 2020).  [Pre-print](https://arxiv.org/pdf/1909.09437.pdf).*
 ![img1](/data/fig1b.jpg)
 
 #### Resources
 - Proposed dataset: [USR-248](http://irvlab.cs.umn.edu/resources/usr-248-dataset)
-- Proposed model: **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
+- Proposed model: **SRDRM** and **SRDRM-GAN** for underwater image super-resolution 
 - Models in comparison: SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Requirements: TensorFlow >= 1.11 and Keras >= 2.2
 
